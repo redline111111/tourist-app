@@ -1,0 +1,145 @@
+
+
+.wrapper{
+    background: rgba(244, 81, 30, 0.07);
+    width: 100%;
+    height: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.review{
+    width: 30%;
+    margin: 80px auto 0;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.description{
+    position: relative;
+    width: 635px;
+    height: 215px;
+}
+.text{
+    font-size: 21px;
+    line-height: 36px;
+}
+.quote{
+    position: absolute;
+    left: -8%;
+    top: -38%;
+    font-size: 250px;
+    color: #F4511E;
+    opacity: 0.3;
+}
+.avatar{
+    border: 1px solid #F4511E;
+    border-radius: 31px;
+}
+.video{
+    width: 900px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.text_place{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+.name{
+    font-weight: 700;
+    font-size: 18px;
+    color: #F4511E;
+}
+
+.tag{
+    font-weight: 400;
+    font-size: 16px;    
+}
+@media (max-width: 1650px) {
+    .description{
+        height: 250px;
+        width: 550px;
+    }
+    .text{
+        width: 500px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .wrapper{
+        height: 400px;
+    }
+    .description{
+        height: 250px;
+        width: 400px;
+    }
+    .text{
+        width: 350px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .video{
+        width: 700px;
+    }
+    .review{
+        margin: 40px auto 0;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .wrapper{
+        height: 800px;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+    .review{
+        margin: 0 auto;
+        width: 600px;
+        margin-top: 80px;
+    }
+    .description{
+        width: 100%;
+        height:200px;
+    }
+    .text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .video{
+        width: 500px;
+    }
+    .review{
+        width: 400px;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 525px) {
+    .wrapper{
+        height: 600px;
+    }
+    .video{
+        width: 400px;
+    }
+    .review{
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+    }
+    .description{
+        width: 100%;
+        height: 500px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}

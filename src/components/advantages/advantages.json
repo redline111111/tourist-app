@@ -1,0 +1,32 @@
+[
+  {
+    "iconPath": "icons/money.svg",
+    "alt": "money",
+    "text": "Самые дешевые цены"
+  },
+  {
+    "iconPath": "icons/community.svg",
+    "alt": "money",
+    "text": "Дружелюбное сообщество"
+  },
+  {
+    "iconPath": "icons/stack.svg",
+    "alt": "money",
+    "text": "Комфортные условия проживания"
+  },
+  {
+    "iconPath": "icons/plant.svg",
+    "alt": "money",
+    "text": "Наслаждайтесь спокойной природой"
+  },
+  {
+    "iconPath": "icons/shield.svg",
+    "alt": "money",
+    "text": "Будьте в безопасности"
+  },
+  {
+    "iconPath": "icons/eye.svg",
+    "alt": "money",
+    "text": "Платите только за то, что используете"
+  }
+]

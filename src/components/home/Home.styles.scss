@@ -1,0 +1,66 @@
+.main{
+    background: 
+		linear-gradient(rgba(19, 155, 176, 0.1), rgba(0, 0, 0, 0.5)), 
+		url("../../../public/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100wh;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 80%;
+    height: 70%;
+    color: white;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1440px) {
+    .wrapper{
+        width: 100%;
+    }
+    .text{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main{
+        height: 100vh;
+    }
+    .wrapper{
+        width: 100%;
+        height: 80%;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .text{
+        font-size:  40px !important;
+        width: 80% !important;
+    }
+    .mapBlock{
+        width: 80% !important;
+    }
+}
+
+.text{
+    font-size: 52px;
+    font-weight: bold;
+    width: 45%;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.mapBlock{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}

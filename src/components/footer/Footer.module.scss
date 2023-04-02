@@ -1,0 +1,51 @@
+.text{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+.text:hover, .picked{
+    color: #F4511E;
+}
+.wrapper {
+    width: 80%;
+    height: 200px;
+    margin: 100px auto 0;
+    border-top: 2px solid #F4511E;
+}
+
+.data{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .data{
+        flex-direction: column;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
